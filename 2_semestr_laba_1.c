@@ -51,7 +51,7 @@ int main(int argc, char **argv) {
     fseek(fp, 0, SEEK_END);
     printf("Elements count: %d\n", elementsCount - 1);
     printf("File size: %ld\n bytes", ftell(fp));
-	fclose(fp);
+    fclose(fp);
 
     return 0;
 }
