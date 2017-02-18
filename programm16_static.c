@@ -37,7 +37,7 @@ void pop(Stack * stack)
 	}
 }
 
-/*Берет врехний стек массива*/
+/*Берет врехний элемент стека массива*/
 int getTop(Stack * stack) {
 	if (stack->number > 0) 
 		return stack->elements[stack->number - 1];
@@ -45,7 +45,7 @@ int getTop(Stack * stack) {
 		exit(STACK_UNDERFLOW);
 }
 
-/*проверяет стек на пустоту*/
+/*проверяет весь стек на пустоту*/
 int isEmpty(Stack * stack) {
 	if (stack->number > 0) 
 		return 0;
@@ -53,7 +53,7 @@ int isEmpty(Stack * stack) {
 		return 1;
 }
 
-/*Печатает стек*/
+/*Печатает весь стек*/
 void printStack(Stack * stack) {
 	if (stack->number > 0) {
 		int i = 0;
@@ -78,7 +78,5 @@ int main() {
 	pop(stack);
 	printStack(stack);
 
-
-	getchar(); getchar();
 	return 0;
 }
