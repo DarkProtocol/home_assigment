@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <malloc.h>
+#include <stdlib.h>
 
 #define STACK_OVERRFLOW -101
 #define STACK_UNDERFLOW -101
