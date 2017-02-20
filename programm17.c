@@ -252,8 +252,5 @@ int main()
 		printf("end = %d;\n", valeraPes->stringValues[x][1] + 1);
 	}
 
-	getchar();
-	getchar();
 	return 0;
-
 }
