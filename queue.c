@@ -3,7 +3,7 @@
 
 #define STACK_UNDERFLOW -101
 
-/*Структура стека*/
+/*Структура очереди*/
 typedef struct {
 	int * elements;
 	int number;
