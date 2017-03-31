@@ -85,6 +85,8 @@ int main(void) {
 	printf("\nMult\n");
 	printf("%.2f\n", mult->Re);
 	printf("%.2f\n", mult->Im);
+	
+	printf("\nValera Psina\n");
 
 	getchar();
 	getchar();
